@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-page">
+
+  <div class="floating-bg" aria-hidden="true"></div>
+
+  <main class="stage" role="main">
+    <div class="container">
+
+      <div id="envelope" class="envelope" role="button">
+        <div class="env-paper">
+          <div class="flap"></div>
+          <div class="inner-pocket"></div>
+          <button id="seal" class="seal">❤️</button>
+          <div class="stitch stitch-left"></div>
+          <div class="stitch stitch-right"></div>
+        </div>
+      </div>
+
+      <div id="card" class="card" aria-hidden="true">
+        <div class="title">HAPPY BIRTHDAY</div>
+
+        <div class="photo-wrap">
+          <img id="userPhoto" class="photo" src="picture/che.jpg" alt="">
+        </div>
+
+        <div id="cardMessage" class="message">
+          <img id="cakeAnimation" src="" alt="Cake Animation">
+        </div>
+
+        <a href="letter.html" class="letter-btn">Open Letter 💌</a>
+      </div>
+
+    </div>
+
+    <div class="hint">Tap the heart seal to open</div>
+  </main>
+
+  <!-- Optional birthday music -->
+  <!-- <audio id="bgMusic" src="happy-birthday.mp3"></audio> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
